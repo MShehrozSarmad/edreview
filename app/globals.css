@@ -2,26 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.dp-style {
+    padding: 2px;
+    border-radius: 50%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.cuHS {
+    display: flex;
+    padding: 5px;
+    background: white;
+}
+
+.herosec {
+    background-color: #8907d4;
+    background-image: url('./components/Rectangle2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 80vh;
+
+}
+
+.ftr{
+    background: #2C272E;
+}
+
+.ftr h2{
+    color: #67E776;
+}
+
+.crcl{
+    border-radius: 50%;
+    background: rgba(78, 29, 154, 0.09);
+}
+
+@media screen and (max-width: 1119px) {
+    .heropic{
+        width: 100%;
+    }
+
+    .hero1st{
+        padding: 0;
+        margin: 0;
+        padding: 2rem;
+        width: 100%;
+    }
+
+    .herosec{
+        height: auto;
+        flex-direction: column;
+    }
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
