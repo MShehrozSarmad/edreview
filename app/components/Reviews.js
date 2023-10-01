@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import pic from './Ellipse.png'
+import pic from '../../public/images/Ellipse.png'
 
 const Reviews = () => {
   return (

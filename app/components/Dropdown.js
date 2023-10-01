@@ -1,5 +1,4 @@
 import React from "react";
-// import { svg } from "./../../public/icon.svg";
 
 const Dropdown = () => {
     const [isOpen, setIsOpen] = React.useState(false);

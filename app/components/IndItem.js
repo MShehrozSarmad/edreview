@@ -1,10 +1,12 @@
 import React from 'react';
 import Carousel from '@itseasy21/react-elastic-carousel';
 import Image from 'next/image';
-import ggl from './ggl.png'
-import crr from './portfolio.png'
-import clndr from './calendar.png'
-import dlr from './dollar.png'
+import ggl from '../../public/images/ggl.png'
+import jio from '../../public/images/jio.png'
+import airtel from '../../public/images/airtel.png'
+import crr from '../../public/images/portfolio.png'
+import clndr from '../../public/images/calendar.png'
+import dlr from '../../public/images/dollar.png'
 
 const IndItem = () => {
     const breakPoints = [
@@ -13,13 +15,6 @@ const IndItem = () => {
         { width: 768, itemsToShow: 2 },
         { width: 1200, itemsToShow: 3 }
     ]
-    // const items = [
-    //     { id: 1, title: 'item #1' },
-    //     { id: 2, title: 'item #2' },
-    //     { id: 3, title: 'item #3' },
-    //     { id: 4, title: 'item #4' },
-    //     { id: 5, title: 'item #5' }
-    // ];
 
     return (
         <Carousel breakPoints={breakPoints}>
@@ -61,7 +56,7 @@ const IndItem = () => {
             <div className='w-[412px] flex flex-col justify-around bg-white rounded-md shadow-xl z-10 border'>
                 <div className='flex flex-row items-center text-center p-4 '>
                     <div>
-                        <Image src={ggl} alt='google' width={53} height={53} />
+                        <Image src={jio} alt='google' width={53} height={53} />
                     </div>
                     <p className='flex flex-col items-center pl-[5px] w-full'>
                         <span className="font-[700px]">Commercial Industrial Placement</span>
@@ -94,7 +89,7 @@ const IndItem = () => {
             <div className='w-[412px] flex flex-col justify-around bg-white rounded-md shadow-xl z-10 border'>
                 <div className='flex flex-row items-center text-center p-4 '>
                     <div>
-                        <Image src={ggl} alt='google' width={53} height={53} />
+                        <Image src={airtel} alt='google' width={53} height={53} />
                     </div>
                     <p className='flex flex-col items-center pl-[5px] w-full'>
                         <span className="font-[700px]">Commercial Industrial Placement</span>

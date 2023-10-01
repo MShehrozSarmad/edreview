@@ -1,10 +1,7 @@
 import React from 'react';
 import Carousel from '@itseasy21/react-elastic-carousel';
 import Image from 'next/image';
-import ds from './ds.png'
-import crr from './portfolio.png'
-import clndr from './calendar.png'
-import dlr from './dollar.png'
+import ds from '../../public/images/ds.png'
 
 const CrsItems = () => {
     const breakPoints = [

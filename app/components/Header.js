@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Dropdown from './Dropdown';
-import dp  from "./dp.png";
+import dp  from "../../public/images/dp.png";
 import Image from 'next/image';
 
 const Header = () => {

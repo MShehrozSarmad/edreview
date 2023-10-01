@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
-import ico1 from './fsfsfsfsfe.png'
-import ico2 from './6464646.png'
-import ico3 from './presentationddddddddd.png'
-import ico4 from './languagefff.png'
-import ico5 from './playlistddd.png'
-import ico6 from './dar.png'
-import ico7 from './fsfsfsfsfe.png'
-import ico8 from './6464647.png'
+import ico1 from '../../public/images/fsfsfsfsfe.png'
+import ico2 from '../../public/images/6464646.png'
+import ico3 from '../../public/images/presentationddddddddd.png'
+import ico4 from '../../public/images/languagefff.png'
+import ico5 from '../../public/images/playlistddd.png'
+import ico6 from '../../public/images/dar.png'
+import ico7 from '../../public/images/fsfsfsfsfe.png'
+import ico8 from '../../public/images/6464647.png'
 
 const Categories = () => {
   return (
