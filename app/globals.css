@@ -39,7 +39,8 @@
     background-color: rgb(93, 0, 255) !important;
 }
 
-.iMqSPA {
+.rec-carousel-wrapper {
+    /* border: 2px solid red; */
     margin: auto;
     margin-bottom: 4rem !important;
     width: 95% !important;
