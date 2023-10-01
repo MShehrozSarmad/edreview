@@ -8,7 +8,6 @@ import Categories from './components/Categories'
 import Reviews from './components/Reviews'
 import Footer from './components/Footer'
 import Internships from './components/Internships'
-import IndItem from './components/IndItem';
 import Courses from './components/Courses';
 
 
@@ -16,16 +15,13 @@ import Courses from './components/Courses';
 const page = () => {
   return (
     <>
-    <ThemeProvider>
       <Header/>
       <Hero/>
       <Categories/>
       <Reviews/>
       <Internships/>
-      <IndItem/>
       <Courses/>
       <Footer/>
-    </ThemeProvider>
     </>
   )
 }

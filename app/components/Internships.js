@@ -1,4 +1,5 @@
 import React from 'react'
+import IndItem from './IndItem'
 
 const Internships = () => {
     return (
@@ -40,7 +41,7 @@ const Internships = () => {
                     </div>
                 </div>
             </section>
-
+            <IndItem/>
         </>
     )
 }

@@ -1,6 +1,5 @@
 import React from 'react'
-// import SearchBarDropdown from './Searchbox'
-import hero from "./hero0.png";
+import hero from "../../public/images/hero0.png";
 import Image from 'next/image';
 
 const New = () => {
