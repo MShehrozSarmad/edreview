@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
             <footer className="ftr text-white">
-                <div className="container py-10 px-20 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+                <div className="container py-[5%] px-[7vw] mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                         <a className="flex title-font font-medium items-center md:justify-start justify-center">
                             <h2 className="text-xl">ED REVIEWS</h2>
