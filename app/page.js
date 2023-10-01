@@ -7,10 +7,7 @@ import Hero from './components/Hero'
 import Categories from './components/Categories'
 import Reviews from './components/Reviews'
 import Footer from './components/Footer'
-import New from './components/New'
 import Internships from './components/Internships'
-// import Slider1 from './components/Slider1'
-// import { CarouselCustomNavigation } from './components/Slider1';
 import IndItem from './components/IndItem';
 import Courses from './components/Courses';
 
@@ -21,8 +18,7 @@ const page = () => {
     <>
     <ThemeProvider>
       <Header/>
-      {/* <Hero/> */}
-      <New/>
+      <Hero/>
       <Categories/>
       <Reviews/>
       <Internships/>
