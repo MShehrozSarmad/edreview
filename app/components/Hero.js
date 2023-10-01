@@ -16,7 +16,7 @@ const New = () => {
                     <div className="flex w-full md:justify-start justify-center items-center">
                         <div className=" cuHS w-3/4 rounded relative mr-4 md:w-full">
                             <input type="search" placeholder='Search by course' id="hero-field" name="hero-field" className=" w-3/4 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                            <select className='text-black w-1/4 outline-none'>
+                            <select className='text-black w-1/4 outline-none border-l-2 text-center'>
                                 <option value="Course">Course</option>
                                 <option value="Internship">Internship</option>
                                 <option value="Job">Job</option>
